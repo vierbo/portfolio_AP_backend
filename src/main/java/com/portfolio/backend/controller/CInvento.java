@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("proyecto") //localhost:8080/about
+@RequestMapping("proyecto") //localhost:8080/proyecto
 @CrossOrigin(origins = "http://localhost:4200") //es la direccion del index de Angular
 public class CInvento {
             @Autowired

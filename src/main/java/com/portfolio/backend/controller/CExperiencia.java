@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("experiencia") //localhost:8080/social
+@RequestMapping("experiencia") //localhost:8080/experiencia
 @CrossOrigin(origins = "http://localhost:4200") //es la direccion del index de Angular
 public class CExperiencia {
     @Autowired
